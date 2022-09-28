@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    background-color: white;
+    padding: 20px 30px;
+    align-items: center;
+    border-bottom: 1px solid rgb(228, 227, 227);
+}
+
+.title {
+    flex: 1;
+    font-weight: bold;
+    /* text-align: center; */
+}
+
+.checkbox {
+    height: 15px;
+    width: 15px;
+    margin-left: 15px;
+}
+
+.checkedTitle {
+    font-weight: bold;
+    /* text-align: center; */
+    flex: 1;
+    color: gray;
+    text-decoration: line-through;
+}
+
+.icon {
+    color: rgb(107, 106, 106);
+}

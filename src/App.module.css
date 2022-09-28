@@ -1,0 +1,32 @@
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-container {
+    margin-top: 5%;
+    width: 50%;
+    margin-bottom: 100px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.textContainer {
+    display: flex;
+    background-color: white;
+    padding: 30px 30px;
+    border-bottom: 1px solid rgb(228, 227, 227);
+    justify-content: center;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+    flex: 1;
+}
+
+@media screen and (max-width: 653px) {
+    .sub-container {
+        width: 80%;
+    }
+}

@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 2;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+
+.input {
+    padding: 7px;
+    margin-bottom: 20px;
+    outline: none;
+    border-bottom: 1px solid gray;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    font-size: 18px;
+}
+
+.input.error {
+    border-bottom: 1px solid red;
+}
+
+.buttonContainer {
+    align-self: flex-end;
+}
+
+.button {
+    padding: 10px 20px;
+    margin-left: 5px;
+    border-radius: 5px;
+    outline: none;
+    border-style: none;
+    background-color: #fa7474;
+    color: white;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #fa5454;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 60%;
+        top: 35%;
+        left: 15%;
+    }
+}
